@@ -322,22 +322,3 @@ Results show that:
 
 ---
 
-## 5. Repository Structure (Suggested)
-
-```text
-.
-├── data/
-│   ├── nasdaq100_cleaned_with_returns.csv
-│   ├── mispricing_residuals.csv
-│   └── topology_features.csv
-├── notebooks/
-│   ├── 01_data_preparation.ipynb
-│   ├── 02_graph_and_diffusion.ipynb
-│   ├── 03_persistent_homology.ipynb
-│   └── 04_model_and_backtest.ipynb
-├── src/
-│   ├── features.py          # feature engineering helpers
-│   ├── graph_utils.py       # graph & Laplacian diffusion helpers
-│   ├── topo_utils.py        # persistent homology helpers
-│   └── models.py            # training & evaluation code
-└── README.md
